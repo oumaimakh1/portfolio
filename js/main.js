@@ -41,19 +41,33 @@ function scrollActive() {
         }
     })
 }
-let btn = document.getElementById("fraise")
+let btn = document.getElementById("bw")
 function backChange() {
     home = document.getElementById("home")
     about = document.getElementById("about")
     let currentColor = window.getComputedStyle(home).backgroundColor;
     if (currentColor === 'rgb(153, 166, 135)') {
-        home.style.backgroundColor = "#3a3936"
-        about.style.backgroundColor="black"
+        home.style.backgroundColor = "#2a2927"
+        about.style.backgroundColor="#3a3936"
+        skills.style.backgroundColor="#3a3936"
+        contact.style.backgroundColor="#3a3936"
+        he.style.color="#99a687"
+        llo.style.color="#99a687"
+        scroll_down.style.color="#99a687"
+
+
 
 
     }else{
         home.style.backgroundColor = 'rgb(153, 166, 135)'
         about.style.backgroundColor="white"
+        skills.style.backgroundColor="white"
+        contact.style.backgroundColor="white"
+        he.style.color="#3a3936"
+        llo.style.color="#3a3936"
+        scroll_down.style.color="#3a3936"
+
+
     }
     console.log(home.style.backgroundColor)
 }

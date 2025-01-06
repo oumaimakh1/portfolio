@@ -151,6 +151,10 @@ img{
     position: relative;
     color: var(--dark-color);
 }
+button {
+    background-color: #44433e;
+    color:var(--first-color);
+}
 .nav__link:hover{
     color: var(--first-color);
 }
