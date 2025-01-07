@@ -28,8 +28,6 @@ function backChange() {
         scroll_down.style.color="#99a687"
 
 
-
-
     }else{
         home.style.backgroundColor = 'rgb(153, 166, 135)'
         about.style.backgroundColor="white"
